@@ -3,7 +3,9 @@
 
 Nuvora is a next-generation personal knowledge operating system designed to capture everything a person learns, creates, saves, and thinks about—and turn it into an organized, connected, intelligent knowledge system.
 Instead of being another notes application, Nuvora brings together:
-Capture → Understand → Connect → Organize → Create → Act
+
+### Capture → Understand → Connect → Organize → Create → Act
+
 Nuvora accepts information in many forms—notes, voice, images, PDFs, webpages, documents, meetings, drawings, bookmarks, and AI-generated content—and transforms that information into structured, searchable, interconnected knowledge.
 
 
