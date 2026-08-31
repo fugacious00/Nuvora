@@ -1,6 +1,15 @@
 # 🧠 Nuvora Knowledge OS
+#  Your knowledge. Organized. Connected. Alive.
 
-A powerful knowledge management and AI-powered personal research assistant. Capture, organize, understand, and query your knowledge base.
+Nuvora is a next-generation personal knowledge operating system designed to capture everything a person learns, creates, saves, and thinks about—and turn it into an organized, connected, intelligent knowledge system.
+Instead of being another notes application, Nuvora brings together:
+Capture → Understand → Connect → Organize → Create → Act
+Nuvora accepts information in many forms—notes, voice, images, PDFs, webpages, documents, meetings, drawings, bookmarks, and AI-generated content—and transforms that information into structured, searchable, interconnected knowledge.
+
+
+<img width="960" height="441" alt="image" src="https://github.com/user-attachments/assets/812c7eb0-ae01-4ce1-8dc9-3130754a8668" />
+
+
 
 ## 🚀 Quick Start
 
@@ -33,95 +42,32 @@ npm run lint     # TypeScript type checking
 npm run preview  # Preview production build
 ```
 
-## 📁 Project Structure
-
-```
-src/
-├── components/     # React UI components
-├── context/        # State management (KnowledgeContext)
-├── services/       # Business logic (aiService)
-├── data/          # Seed data
-├── utils/         # Helper utilities
-├── types.ts       # TypeScript types
-├── App.tsx        # Root component
-└── main.tsx       # Entry point
-```
-
 ## ✨ Features
 
 - **Universal Capture** - Save ideas, articles, notes, tasks from anywhere
 - **AI Understanding** - Automatic tagging, categorization, entity extraction
-- **Knowledge Base** - Organized, searchable personal research library
-- **AI Ask** - Query your knowledge base with natural language
+- **Knowledge Base** - Organized, searchable personal research library 
+- **AI Ask** - Query your knowledge base with natural language  
 - **Collections** - Group related items
 - **Projects** - Manage knowledge-driven projects
 - **Tasks** - Extract and track actionable items
 - **Graph View** - Visualize knowledge connections
 - **Weekly Digest** - Insights and activity summary
 
-## 🔧 Environment Setup
 
-```env
-# Optional - Gemini API key for AI features
-GEMINI_API_KEY=your_gemini_api_key_here
+  <img width="956" height="436" alt="image" src="https://github.com/user-attachments/assets/62142478-ebf2-4ee2-a2c1-1e7a774bba26" />
 
-# Server configuration
-NODE_ENV=development
-PORT=3000
-```
 
-## 📦 Tech Stack
+  <img width="960" height="434" alt="image" src="https://github.com/user-attachments/assets/90e176e9-0c40-42f2-bb83-0a962e4def00" />
 
-**Frontend:**
-- React 19
-- TypeScript 5.8
-- Vite 6
-- Tailwind CSS 4
-- Lucide React (icons)
-- Recharts (charts)
-- Motion (animations)
+  
+  <img width="960" height="440" alt="image" src="https://github.com/user-attachments/assets/a4567a72-ef6b-4d2e-b61f-e3f29be2bbd1" />
 
-**Backend:**
-- Express.js
-- Node.js
-- Google Gemini AI (optional)
-- Helmet (security)
-- CORS (cross-origin)
-- Rate limiting
 
-## 🔐 Security Features
+  <img width="958" height="441" alt="image" src="https://github.com/user-attachments/assets/6ef7f4ef-c6d2-46da-af18-89d50cad418a" />
 
-✅ **Request Validation** - Input sanitization & size limits  
-✅ **Rate Limiting** - API throttling (100 req/15min)  
-✅ **Security Headers** - CSP, HSTS, X-Frame-Options  
-✅ **CORS** - Configurable origin restrictions  
-✅ **Error Handling** - Safe error responses  
-✅ **Offline Fallback** - Works without AI key  
-✅ **Timeout Protection** - 30-second timeout on requests  
 
-## 🤖 AI Capabilities
 
-- **Understand** - Extract topics, entities, actions, insights from content
-- **Ask** - Natural language query over knowledge base
-- **Fallback** - Works without API key (local processing)
-- **Model Resilience** - Automatic fallback to alternative models
-
-## 💾 Knowledge Management
-
-**Capture Types:**
-- Notes & ideas
-- Articles & references
-- Meeting notes
-- Task lists
-- How-to guides
-- Reflections & learnings
-
-**Organization:**
-- Collections (grouped knowledge)
-- Projects (knowledge-driven work)
-- Topics (automatic tagging)
-- Search (full-text search)
-- Graph (relationship mapping)
 
 ## 📝 License
 
