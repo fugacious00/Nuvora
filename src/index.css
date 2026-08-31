@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: #0B0F19;
+    background-color: #F6F7FC;
+  }
+}
+
+/* Custom aurora gradient & lighting utilities */
+.bg-aurora {
+  background: linear-gradient(135deg, #7B61FF 0%, #4C9CFF 100%);
+}
+
+.text-aurora {
+  background: linear-gradient(135deg, #7B61FF 0%, #4C9CFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.border-aurora {
+  border-image: linear-gradient(135deg, #7B61FF, #4C9CFF) 1;
+}
+
+/* Subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(123, 97, 255, 0.2);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(123, 97, 255, 0.4);
+}
+
